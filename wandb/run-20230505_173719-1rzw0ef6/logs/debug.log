@@ -1,0 +1,62 @@
+2023-05-05 17:37:19,350 INFO    MainThread:27978 [wandb_setup.py:_flush():68] Configure stats pid to 27978
+2023-05-05 17:37:19,350 INFO    MainThread:27978 [wandb_setup.py:_flush():68] Loading settings from /Users/jakemendel/.config/wandb/settings
+2023-05-05 17:37:19,350 INFO    MainThread:27978 [wandb_setup.py:_flush():68] Loading settings from /Users/jakemendel/Desktop/Code/Antilearning/wandb/settings
+2023-05-05 17:37:19,350 INFO    MainThread:27978 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-05-05 17:37:19,350 INFO    MainThread:27978 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-05 17:37:19,351 INFO    MainThread:27978 [wandb_init.py:_log_setup():476] Logging user logs to /Users/jakemendel/Desktop/Code/Antilearning/wandb/run-20230505_173719-1rzw0ef6/logs/debug.log
+2023-05-05 17:37:19,351 INFO    MainThread:27978 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/jakemendel/Desktop/Code/Antilearning/wandb/run-20230505_173719-1rzw0ef6/logs/debug-internal.log
+2023-05-05 17:37:19,351 INFO    MainThread:27978 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f79b8b04880>
+2023-05-05 17:37:19,352 INFO    MainThread:27978 [wandb_init.py:init():516] calling init triggers
+2023-05-05 17:37:19,352 INFO    MainThread:27978 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-05-05 17:37:19,352 INFO    MainThread:27978 [wandb_init.py:init():569] starting backend
+2023-05-05 17:37:19,352 INFO    MainThread:27978 [wandb_init.py:init():573] setting up manager
+2023-05-05 17:37:19,358 INFO    MainThread:27978 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-05-05 17:37:19,362 INFO    MainThread:27978 [wandb_init.py:init():580] backend started and connected
+2023-05-05 17:37:19,375 INFO    MainThread:27978 [wandb_run.py:_label_probe_notebook():1116] probe notebook
+2023-05-05 17:37:19,377 INFO    MainThread:27978 [wandb_run.py:_label_probe_notebook():1126] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-05 17:37:19,377 INFO    MainThread:27978 [wandb_init.py:init():658] updated telemetry
+2023-05-05 17:37:19,405 INFO    MainThread:27978 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-05-05 17:37:20,221 INFO    MainThread:27978 [wandb_run.py:_on_init():2006] communicating current version
+2023-05-05 17:37:20,327 INFO    MainThread:27978 [wandb_run.py:_on_init():2010] got version response upgrade_message: "wandb version 0.15.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-05-05 17:37:20,328 INFO    MainThread:27978 [wandb_init.py:init():728] starting run threads in backend
+2023-05-05 17:37:25,405 INFO    MainThread:27978 [wandb_run.py:_console_start():1986] atexit reg
+2023-05-05 17:37:25,406 INFO    MainThread:27978 [wandb_run.py:_redirect():1844] redirect: SettingsConsole.WRAP_RAW
+2023-05-05 17:37:25,407 INFO    MainThread:27978 [wandb_run.py:_redirect():1909] Wrapping output streams.
+2023-05-05 17:37:25,408 INFO    MainThread:27978 [wandb_run.py:_redirect():1931] Redirects installed.
+2023-05-05 17:37:25,408 INFO    MainThread:27978 [wandb_init.py:init():765] run started, returning control to user process
+2023-05-05 17:37:25,465 INFO    MainThread:27978 [wandb_watch.py:watch():51] Watching
+2023-05-05 17:37:25,555 INFO    MainThread:27978 [wandb_init.py:_pause_backend():389] pausing backend
+2023-05-05 17:37:25,555 INFO    MainThread:27978 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-05-05 17:38:20,903 INFO    MainThread:27978 [wandb_init.py:_resume_backend():398] resuming backend
+2023-05-05 17:38:20,969 INFO    MainThread:27978 [wandb_init.py:_pause_backend():389] pausing backend
+2023-05-05 17:38:20,969 INFO    MainThread:27978 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-05-05 17:38:46,062 INFO    MainThread:27978 [wandb_init.py:_resume_backend():398] resuming backend
+2023-05-05 17:38:46,085 INFO    MainThread:27978 [wandb_init.py:_pause_backend():389] pausing backend
+2023-05-05 17:38:46,086 INFO    MainThread:27978 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-05-05 17:38:49,805 INFO    MainThread:27978 [wandb_init.py:_resume_backend():398] resuming backend
+2023-05-05 17:38:49,809 INFO    MainThread:27978 [wandb_init.py:_pause_backend():389] pausing backend
+2023-05-05 17:38:49,810 INFO    MainThread:27978 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-05-05 17:38:51,671 INFO    MainThread:27978 [wandb_init.py:_resume_backend():398] resuming backend
+2023-05-05 17:38:53,546 INFO    MainThread:27978 [wandb_setup.py:_flush():68] Configure stats pid to 27978
+2023-05-05 17:38:53,546 INFO    MainThread:27978 [wandb_setup.py:_flush():68] Loading settings from /Users/jakemendel/.config/wandb/settings
+2023-05-05 17:38:53,546 INFO    MainThread:27978 [wandb_setup.py:_flush():68] Loading settings from /Users/jakemendel/Desktop/Code/Antilearning/wandb/settings
+2023-05-05 17:38:53,546 INFO    MainThread:27978 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-05-05 17:38:53,546 INFO    MainThread:27978 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-05 17:38:53,546 INFO    MainThread:27978 [wandb_init.py:_log_setup():476] Logging user logs to /Users/jakemendel/Desktop/Code/Antilearning/wandb/run-20230505_173853-2oppkzuc/logs/debug.log
+2023-05-05 17:38:53,546 INFO    MainThread:27978 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/jakemendel/Desktop/Code/Antilearning/wandb/run-20230505_173853-2oppkzuc/logs/debug-internal.log
+2023-05-05 17:38:53,546 INFO    MainThread:27978 [wandb_init.py:init():516] calling init triggers
+2023-05-05 17:38:53,547 INFO    MainThread:27978 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-05-05 17:38:53,547 INFO    MainThread:27978 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 1rzw0ef6
+2023-05-05 17:38:53,548 INFO    MainThread:27978 [wandb_run.py:_finish():1753] finishing run jake-mendel/rotated_mnist/1rzw0ef6
+2023-05-05 17:38:53,549 INFO    MainThread:27978 [jupyter.py:save_history():448] not saving jupyter history
+2023-05-05 17:38:53,549 INFO    MainThread:27978 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2023-05-05 17:38:53,549 INFO    MainThread:27978 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2023-05-05 17:38:53,549 INFO    MainThread:27978 [wandb_run.py:_atexit_cleanup():1955] got exitcode: 0
+2023-05-05 17:38:53,550 INFO    MainThread:27978 [wandb_run.py:_restore():1938] restore
+2023-05-05 17:38:53,550 INFO    MainThread:27978 [wandb_run.py:_restore():1944] restore done
+2023-05-05 17:38:58,198 INFO    MainThread:27978 [wandb_run.py:_footer_history_summary_info():3408] rendering history
+2023-05-05 17:38:58,199 INFO    MainThread:27978 [wandb_run.py:_footer_history_summary_info():3440] rendering summary
+2023-05-05 17:38:58,206 INFO    MainThread:27978 [wandb_run.py:_footer_sync_info():3364] logging synced files

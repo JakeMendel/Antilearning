@@ -1,0 +1,10 @@
+
+Epoch [1/2], Step [100/423], Loss: nan
+Epoch [1/2], Step [200/423], Loss: nan
+Epoch [1/2], Step [300/423], Loss: nan
+Epoch [1/2], Step [400/423], Loss: nan
+Epoch [2/2], Step [100/423], Loss: nan
+Epoch [2/2], Step [200/423], Loss: nan
+Epoch [2/2], Step [300/423], Loss: nan
+Epoch [2/2], Step [400/423], Loss: nan
+Accuracy of the model on the 7037 test images: 0.0%
